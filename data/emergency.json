@@ -1,0 +1,18 @@
+[
+  {
+    "keywords": ["bleed", "cut"],
+    "response": "Apply pressure with a clean cloth to stop bleeding."
+  },
+  {
+    "keywords": ["faint", "unconscious"],
+    "response": "Lay the person flat and raise their legs slightly."
+  },
+  {
+    "keywords": ["burn"],
+    "response": "Cool the burn with running water for 10-15 minutes."
+  },
+  {
+    "keywords": ["chest", "heart"],
+    "response": "Keep patient calm and call emergency immediately."
+  }
+]

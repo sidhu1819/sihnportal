@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "patient": "Ravi Kumar",
+    "doctor": "Dr. Ramesh Kumar",
+    "medicines": "Paracetamol 500mg",
+    "instructions": "Take twice a day after meals"
+  },
+  {
+    "id": 2,
+    "patient": "Meena Sharma",
+    "doctor": "Dr. Sneha Rao",
+    "medicines": "Amoxicillin 250mg",
+    "instructions": "Take one capsule every 8 hours"
+  }
+]

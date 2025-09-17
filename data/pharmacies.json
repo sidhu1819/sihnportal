@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "LifeCare Medicals",
+    "address": "Main Road, Rural Town",
+    "contact": "+91 9876543210",
+    "open": "8 AM - 10 PM"
+  },
+  {
+    "id": 2,
+    "name": "Green Cross Pharmacy",
+    "address": "Near Bus Stand, Village Center",
+    "contact": "+91 9123456780",
+    "open": "24 Hours"
+  },
+  {
+    "id": 3,
+    "name": "Rural Health Pharmacy",
+    "address": "Opp. Primary School, Rural Village",
+    "contact": "+91 9988776655",
+    "open": "9 AM - 8 PM"
+  }
+]
