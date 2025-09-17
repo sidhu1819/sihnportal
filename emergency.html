@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency - RuralHealthAI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="RuralHealthAI Logo">
+      <h1>RuralHealthAI</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="prescription.html">Prescriptions</a></li>
+        <li><a href="pharmacy.html">Pharmacy</a></li>
+        <li><a href="emergency.html" class="active">Emergency</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Emergency Section -->
+  <section class="emergency">
+    <h2>🚑 Emergency Support</h2>
+    <p>
+      If you are facing a medical emergency, please follow the quick steps below 
+      and contact the nearest available hospital or ambulance service.
+    </p>
+
+    <!-- Emergency AI Chat -->
+    <div class="emergency-chat">
+      <h3>AI First-Aid Assistant</h3>
+      <div id="emergency-log"></div>
+      <input type="text" id="emergency-input" placeholder="Describe the emergency...">
+      <button onclick="sendEmergency()">Send</button>
+    </div>
+
+    <!-- Emergency Contacts -->
+    <h3>Important Contacts</h3>
+    <ul class="emergency-contacts">
+      <li><b>🚑 Ambulance:</b> 108 (India)</li>
+      <li><b>🏥 Rural General Hospital:</b> +91 9876543211</li>
+      <li><b>🩺 Community Health Center:</b> +91 9123456789</li>
+    </ul>
+
+    <!-- Quick First Aid -->
+    <h3>Quick First Aid Tips</h3>
+    <div class="first-aid">
+      <p>✅ For bleeding: Apply pressure with a clean cloth.</p>
+      <p>✅ For fainting: Lay the person flat and raise their legs.</p>
+      <p>✅ For burns: Wash with cool water, do not apply oil.</p>
+      <p>✅ For chest pain: Keep patient calm and call emergency immediately.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 RuralHealthAI | Smart Healthcare for Rural Communities</p>
+  </footer>
+
+  <script src="js/emergency.js"></script>
+</body>
+</html>

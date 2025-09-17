@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment - RuralHealthAI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="RuralHealthAI Logo">
+      <h1>RuralHealthAI</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointment.html" class="active">Appointment</a></li>
+        <li><a href="prescription.html">Prescriptions</a></li>
+        <li><a href="pharmacy.html">Pharmacy</a></li>
+        <li><a href="emergency.html">Emergency</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Appointment Section -->
+  <section class="appointment">
+    <h2>Book an Appointment</h2>
+    <p>Fill in the details below to schedule a consultation with a doctor.</p>
+
+    <form id="appointmentForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="symptoms">Symptoms:</label>
+      <textarea id="symptoms" name="symptoms" rows="4" required></textarea>
+
+      <label for="doctor">Select Doctor:</label>
+      <select id="doctor" name="doctor" required>
+        <option value="">-- Choose a Doctor --</option>
+        <option value="Dr. Ramesh Kumar">Dr. Ramesh Kumar (General Physician)</option>
+        <option value="Dr. Sneha Rao">Dr. Sneha Rao (Pediatrician)</option>
+        <option value="Dr. Arvind Patel">Dr. Arvind Patel (Cardiologist)</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit" class="btn">Confirm Appointment</button>
+    </form>
+
+    <div id="confirmation" style="display:none;">
+      <h3>✅ Appointment Confirmed!</h3>
+      <p>Your appointment has been booked successfully. Please check the prescriptions page for updates after consultation.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 RuralHealthAI | Smart Healthcare for Rural Communities</p>
+  </footer>
+
+  <script src="js/appointment.js"></script>
+</body>
+</html>

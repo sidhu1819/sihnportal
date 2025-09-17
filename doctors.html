@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctors - RuralHealthAI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="RuralHealthAI Logo">
+      <h1>RuralHealthAI</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="doctors.html" class="active">Doctors</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="prescription.html">Prescriptions</a></li>
+        <li><a href="pharmacy.html">Pharmacy</a></li>
+        <li><a href="emergency.html">Emergency</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Doctors Section -->
+  <section class="doctors">
+    <h2>Available Doctors</h2>
+    <p>Meet our healthcare professionals ready to serve rural communities.</p>
+
+    <div class="doctor-grid">
+      <div class="doctor-card">
+        <img src="assets/doctors/doctor1.png" alt="Doctor A">
+        <h3>Dr. Ramesh Kumar</h3>
+        <p><b>Specialization:</b> General Physician</p>
+        <p><b>Available:</b> 9 AM - 1 PM</p>
+      </div>
+      <div class="doctor-card">
+        <img src="assets/doctors/doctor2.png" alt="Doctor B">
+        <h3>Dr. Sneha Rao</h3>
+        <p><b>Specialization:</b> Pediatrician</p>
+        <p><b>Available:</b> 2 PM - 6 PM</p>
+      </div>
+      <div class="doctor-card">
+        <img src="assets/doctors/doctor3.png" alt="Doctor C">
+        <h3>Dr. Arvind Patel</h3>
+        <p><b>Specialization:</b> Cardiologist</p>
+        <p><b>Available:</b> 5 PM - 9 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot Section -->
+  <section class="chatbot">
+    <h2>AI Health Assistant</h2>
+    <p>Describe your symptoms, and our AI will suggest the right doctor.</p>
+    <div id="chatbox">
+      <div id="chat-log"></div>
+      <input type="text" id="user-input" placeholder="Type your symptoms...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 RuralHealthAI | Smart Healthcare for Rural Communities</p>
+  </footer>
+
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

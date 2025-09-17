@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prescriptions - RuralHealthAI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="RuralHealthAI Logo">
+      <h1>RuralHealthAI</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="prescription.html" class="active">Prescriptions</a></li>
+        <li><a href="pharmacy.html">Pharmacy</a></li>
+        <li><a href="emergency.html">Emergency</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Prescription Section -->
+  <section class="prescriptions">
+    <h2>Saved Prescriptions</h2>
+    <p>Here are your prescriptions provided by doctors after consultation.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Patient Name</th>
+          <th>Doctor</th>
+          <th>Medicines</th>
+          <th>Instructions</th>
+          <th>Download</th>
+        </tr>
+      </thead>
+      <tbody id="prescriptionList">
+        <tr>
+          <td>Ravi Kumar</td>
+          <td>Dr. Ramesh Kumar</td>
+          <td>Paracetamol 500mg</td>
+          <td>Take twice a day after meals</td>
+          <td><button onclick="downloadPrescription(1)">⬇ Download</button></td>
+        </tr>
+        <tr>
+          <td>Meena Sharma</td>
+          <td>Dr. Sneha Rao</td>
+          <td>Amoxicillin 250mg</td>
+          <td>Take one capsule every 8 hours</td>
+          <td><button onclick="downloadPrescription(2)">⬇ Download</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 RuralHealthAI | Smart Healthcare for Rural Communities</p>
+  </footer>
+
+  <script src="js/prescription.js"></script>
+</body>
+</html>
